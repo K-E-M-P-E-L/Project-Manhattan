@@ -1,4 +1,109 @@
-.App{
-    background-color: black;
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,200&display=swap%27%27');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main__registrereButik {
+  background-color: #0492C2;
+  width: 100%;
+  height: 100vh;
+}
+
+.registrere__main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+
+
+  .registrere__header {
+    grid-area: 2 / 6 / 3 / 9; 
+    margin-left: 0%;
+  }
+
+  .registrere__venstreDel {
+    float: left;
+    width: 10%;
+    grid-area: 4 / 5 / 7 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0%;
+  }
+
+  input {
+    border: solid 1px black;
+    border-radius: 3%;
+    margin-top: 7%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    margin-bottom:20%;
+    padding: 45%;
+}
+
+  .registrere__hoejreDel {
+    display: flex;
+    flex-direction: column;
+    grid-area: 4 / 7 / 8 / 10; 
+    margin-left: 0%;
+
+    .registrere__eksop {
+      float: right;
+      width: 10%;
+    }
+  }
+  .registrere__hoejreDel1 {
+    display: flex;
+    flex-direction: column;
+    grid-area: 5 / 7 / 8 / 10; 
+    margin-left: 0%;
+
+    .registrere__eksop1 {
+      float: right;
+      width: 10%;
+    }
+  }
+  .registrere__godkendBetingelser {
+    display: flex;
+    margin-top: 0%;
+    grid-area: 7 / 5 / 8 / 6;
+    // margin-left: 15%;
+    float: left;
+    width: 200%;
+    
+
+   
+
+
+
+  }
+
+  #send {
+    padding: 0.5%;
+    width: 50%;
+    margin-top: 7%;
+    grid-area: 7 / 8 / 8 / 10;
+  }
+}
+
+.clearboth {
+  clear: both;
 }

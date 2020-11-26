@@ -1,12 +1,10 @@
-import React from 'react';
-import 'index.scss';
+import RegistrereUser from "./Assets/Pages/RegistrereUser";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        e
-      </p>
+      <RegistrereUser/>
     </div>
   );
 }
