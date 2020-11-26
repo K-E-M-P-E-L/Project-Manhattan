@@ -1,10 +1,11 @@
-import RegistrereUser from "./Assets/Pages/RegistrereUser";
+import { Profil } from "./Assets/Components/Profil";
+
 
 
 function App() {
   return (
     <div className="App">
-      <RegistrereUser/>
+      <Profil/>
     </div>
   );
 }
