@@ -1,4 +1,4 @@
-import { Profil } from "./Assets/Components/Profil";
+import Profil from "./Assets/Pages/Profil";
 
 
 
